@@ -1,0 +1,37 @@
+[1.324s] Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log --single-version-externally-managed install_data
+[1.738s] running egg_info
+[1.739s] creating ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info
+[1.769s] writing ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/PKG-INFO
+[1.771s] writing dependency_links to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/dependency_links.txt
+[1.771s] writing entry points to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/entry_points.txt
+[1.772s] writing requirements to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/requires.txt
+[1.772s] writing top-level names to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/top_level.txt
+[1.772s] writing manifest file '../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/SOURCES.txt'
+[1.833s] reading manifest file '../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/SOURCES.txt'
+[1.835s] writing manifest file '../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/SOURCES.txt'
+[1.835s] running build
+[1.836s] running build_py
+[1.836s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build
+[1.837s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib
+[1.837s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library
+[1.837s] copying python_package_that_uses_the_library/node_that_uses_the_library.py -> /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library
+[1.837s] copying python_package_that_uses_the_library/__init__.py -> /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library
+[1.838s] running install
+[1.845s] running install_lib
+[1.873s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages/python_package_that_uses_the_library
+[1.873s] copying /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library/node_that_uses_the_library.py -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages/python_package_that_uses_the_library
+[1.874s] copying /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library/__init__.py -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages/python_package_that_uses_the_library
+[1.874s] byte-compiling /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages/python_package_that_uses_the_library/node_that_uses_the_library.py to node_that_uses_the_library.cpython-312.pyc
+[1.875s] byte-compiling /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages/python_package_that_uses_the_library/__init__.py to __init__.cpython-312.pyc
+[1.875s] running install_data
+[1.875s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index
+[1.875s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index/resource_index
+[1.875s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index/resource_index/packages
+[1.876s] copying resource/python_package_that_uses_the_library -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index/resource_index/packages
+[1.877s] copying package.xml -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library
+[1.878s] running install_egg_info
+[1.921s] Copying ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info to /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages/python_package_that_uses_the_library-0.0.0-py3.12.egg-info
+[1.922s] running install_scripts
+[2.139s] Installing node_that_uses_the_library script to /home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python_package_that_uses_the_library
+[2.140s] writing list of installed files to '/home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log'
+[2.178s] Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log --single-version-externally-managed install_data

@@ -1,0 +1,43 @@
+[1.573s] Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --single-version-externally-managed install_data
+[1.968s] running egg_info
+[1.969s] creating ../../build/python_package_with_a_library/python_package_with_a_library.egg-info
+[1.998s] writing ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/PKG-INFO
+[2.000s] writing dependency_links to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/dependency_links.txt
+[2.000s] writing requirements to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/requires.txt
+[2.002s] writing top-level names to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/top_level.txt
+[2.002s] writing manifest file '../../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[2.059s] reading manifest file '../../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[2.061s] writing manifest file '../../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.064s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build
+[2.064s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib
+[2.064s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library
+[2.064s] copying python_package_with_a_library/__init__.py -> /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library
+[2.065s] creating /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library
+[2.065s] copying python_package_with_a_library/sample_python_library/__init__.py -> /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library
+[2.067s] copying python_package_with_a_library/sample_python_library/_sample_function.py -> /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library
+[2.067s] copying python_package_with_a_library/sample_python_library/_sample_class.py -> /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library
+[2.069s] running install
+[2.080s] running install_lib
+[2.107s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library
+[2.108s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library
+[2.109s] copying /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library/__init__.py -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library
+[2.110s] copying /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library/_sample_function.py -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library
+[2.111s] copying /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/sample_python_library/_sample_class.py -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library
+[2.111s] copying /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build/lib/python_package_with_a_library/__init__.py -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library
+[2.112s] byte-compiling /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library/__init__.py to __init__.cpython-312.pyc
+[2.113s] byte-compiling /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library/_sample_function.py to _sample_function.cpython-312.pyc
+[2.116s] byte-compiling /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/sample_python_library/_sample_class.py to _sample_class.cpython-312.pyc
+[2.116s] byte-compiling /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library/__init__.py to __init__.cpython-312.pyc
+[2.117s] running install_data
+[2.117s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/ament_index
+[2.118s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/ament_index/resource_index
+[2.118s] creating /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/ament_index/resource_index/packages
+[2.118s] copying resource/python_package_with_a_library -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/ament_index/resource_index/packages
+[2.118s] copying package.xml -> /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library
+[2.122s] running install_egg_info
+[2.151s] Copying ../../build/python_package_with_a_library/python_package_with_a_library.egg-info to /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages/python_package_with_a_library-0.0.0-py3.12.egg-info
+[2.153s] running install_scripts
+[2.492s] writing list of installed files to '/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/install.log'
+[3.061s] Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --single-version-externally-managed install_data

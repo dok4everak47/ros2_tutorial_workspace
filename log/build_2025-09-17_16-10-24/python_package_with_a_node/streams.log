@@ -1,0 +1,21 @@
+[1.516s] Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/install.log --single-version-externally-managed install_data
+[2.012s] running egg_info
+[2.059s] writing ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/PKG-INFO
+[2.060s] writing dependency_links to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/dependency_links.txt
+[2.063s] writing entry points to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/entry_points.txt
+[2.063s] writing requirements to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/requires.txt
+[2.064s] writing top-level names to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/top_level.txt
+[2.140s] reading manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+[2.148s] writing manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+[2.148s] running build
+[2.149s] running build_py
+[2.149s] running install
+[2.179s] running install_lib
+[2.243s] running install_data
+[2.243s] running install_egg_info
+[2.315s] removing '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages/python_package_with_a_node-0.0.0-py3.12.egg-info' (and everything under it)
+[2.318s] Copying ../../build/python_package_with_a_node/python_package_with_a_node.egg-info to /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages/python_package_with_a_node-0.0.0-py3.12.egg-info
+[2.321s] running install_scripts
+[2.691s] Installing sample_python_node script to /home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python_package_with_a_node
+[2.691s] writing list of installed files to '/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/install.log'
+[2.730s] Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/install.log --single-version-externally-managed install_data

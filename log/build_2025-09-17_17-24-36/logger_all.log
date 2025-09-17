@@ -1,0 +1,277 @@
+[0.157s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7babdc480fe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7babdc42d280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7babdc42d280>>, mixin_verb=('build',))
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dok4ever/ros2_tutorial_workspace'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_package_that_uses_the_library' with type 'ros.ament_python' and name 'python_package_that_uses_the_library'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_package_with_a_library' with type 'ros.ament_python' and name 'python_package_with_a_library'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_node) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_package_with_a_node' with type 'ros.ament_python' and name 'python_package_with_a_node'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/the_simplest_python_package) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/the_simplest_python_package' with type 'ros.ament_python' and name 'the_simplest_python_package'
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dok4ever/ros2_tutorial_workspace/install
+[0.300s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/kilted
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'python_package_with_a_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library', 'merge_install': False, 'path': '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library', 'symlink_install': False, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'python_package_with_a_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node', 'merge_install': False, 'path': '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node', 'symlink_install': False, 'test_result_base': None}
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'cmake_target' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.360s] Level 5:colcon.colcon_core.verb:set package 'the_simplest_python_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.360s] DEBUG:colcon.colcon_core.verb:Building package 'the_simplest_python_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package', 'merge_install': False, 'path': '/home/dok4ever/ros2_tutorial_workspace/src/the_simplest_python_package', 'symlink_install': False, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'python_package_that_uses_the_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library', 'merge_install': False, 'path': '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library', 'symlink_install': False, 'test_result_base': None}
+[0.361s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.362s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.363s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library' with build type 'ament_python'
+[0.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_with_a_library', 'ament_prefix_path')
+[0.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/ament_prefix_path.ps1'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/ament_prefix_path.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/ament_prefix_path.sh'
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node' with build type 'ament_python'
+[0.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_with_a_node', 'ament_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/hook/ament_prefix_path.ps1'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/hook/ament_prefix_path.dsv'
+[0.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/hook/ament_prefix_path.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.709s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library'
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.035s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node'
+[1.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.036s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/install.log --single-version-externally-managed install_data
+[1.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --single-version-externally-managed install_data
+[2.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_node' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_node/install.log --single-version-externally-managed install_data
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node' for CMake module files
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node' for CMake config files
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/bin'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/pkgconfig/python_package_with_a_node.pc'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages'
+[2.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_with_a_node', 'pythonpath')
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/hook/pythonpath.ps1'
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/hook/pythonpath.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/hook/pythonpath.sh'
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/bin'
+[2.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_package_with_a_node)
+[2.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/package.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/package.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/package.sh'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/package.bash'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/python_package_with_a_node/package.zsh'
+[2.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/share/colcon-core/packages/python_package_with_a_node)
+[2.769s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dok4ever/ros2_tutorial_workspace/src/the_simplest_python_package' with build type 'ament_python'
+[2.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('the_simplest_python_package', 'ament_prefix_path')
+[2.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/hook/ament_prefix_path.ps1'
+[2.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/hook/ament_prefix_path.dsv'
+[2.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/hook/ament_prefix_path.sh'
+[2.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.775s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library' for CMake module files
+[2.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_with_a_library' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --single-version-externally-managed install_data
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library' for CMake config files
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/bin'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/pkgconfig/python_package_with_a_library.pc'
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages'
+[2.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_with_a_library', 'pythonpath')
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/pythonpath.ps1'
+[2.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/pythonpath.dsv'
+[2.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/pythonpath.sh'
+[2.791s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/bin'
+[2.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_package_with_a_library)
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.ps1'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.dsv'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.sh'
+[2.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.bash'
+[2.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.zsh'
+[2.796s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/share/colcon-core/packages/python_package_with_a_library)
+[2.798s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library' with build type 'ament_python'
+[2.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_that_uses_the_library', 'ament_prefix_path')
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.ps1'
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.dsv'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.sh'
+[2.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.129s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dok4ever/ros2_tutorial_workspace/src/the_simplest_python_package'
+[3.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.449s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library'
+[3.449s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.449s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/the_simplest_python_package': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/the_simplest_python_package build --build-base /home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package/build install --record /home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package/install.log --single-version-externally-managed install_data
+[4.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library': AMENT_PREFIX_PATH=/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node:/opt/ros/kilted CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log --single-version-externally-managed install_data
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package' for CMake module files
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package' for CMake config files
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/bin'
+[5.045s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib/pkgconfig/the_simplest_python_package.pc'
+[5.046s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages'
+[5.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/the_simplest_python_package' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/the_simplest_python_package build --build-base /home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package/build install --record /home/dok4ever/ros2_tutorial_workspace/build/the_simplest_python_package/install.log --single-version-externally-managed install_data
+[5.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('the_simplest_python_package', 'pythonpath')
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/hook/pythonpath.ps1'
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/hook/pythonpath.dsv'
+[5.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/hook/pythonpath.sh'
+[5.050s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/bin'
+[5.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(the_simplest_python_package)
+[5.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/package.ps1'
+[5.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/package.dsv'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/package.sh'
+[5.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/package.bash'
+[5.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/the_simplest_python_package/package.zsh'
+[5.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/share/colcon-core/packages/the_simplest_python_package)
+[5.273s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library' for CMake module files
+[5.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dok4ever/ros2_tutorial_workspace/src/python_package_that_uses_the_library' returned '0': AMENT_PREFIX_PATH=/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node:/opt/ros/kilted CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.12/site-packages:/home/dok4ever/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build install --record /home/dok4ever/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log --single-version-externally-managed install_data
+[5.275s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library' for CMake config files
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib'
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/bin'
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/pkgconfig/python_package_that_uses_the_library.pc'
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.12/site-packages'
+[5.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_that_uses_the_library', 'pythonpath')
+[5.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.dsv'
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.sh'
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/bin'
+[5.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_package_that_uses_the_library)
+[5.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.ps1'
+[5.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.dsv'
+[5.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.sh'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.bash'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.zsh'
+[5.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dok4ever/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/colcon-core/packages/python_package_that_uses_the_library)
+[5.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.286s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.295s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.308s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.308s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dok4ever/ros2_tutorial_workspace/install/local_setup.ps1'
+[5.312s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dok4ever/ros2_tutorial_workspace/install/_local_setup_util_ps1.py'
+[5.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dok4ever/ros2_tutorial_workspace/install/setup.ps1'
+[5.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dok4ever/ros2_tutorial_workspace/install/local_setup.sh'
+[5.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dok4ever/ros2_tutorial_workspace/install/_local_setup_util_sh.py'
+[5.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dok4ever/ros2_tutorial_workspace/install/setup.sh'
+[5.326s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dok4ever/ros2_tutorial_workspace/install/local_setup.bash'
+[5.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dok4ever/ros2_tutorial_workspace/install/setup.bash'
+[5.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dok4ever/ros2_tutorial_workspace/install/local_setup.zsh'
+[5.331s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dok4ever/ros2_tutorial_workspace/install/setup.zsh'
